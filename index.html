@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WebSmart</title>
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>WebSmart</span>
+        </div>
+        <div id="about">
+            <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+            <a href="#" onclick="slowScroll('#overiw')" title="Приемущества">Приемущества</a>
+            <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+            <a href="#" onclick="slowscroll('#faq')" title="Ответы на вопросы">FAQ</a>
+        </div>
+    </header>
+
+    <div id="top">
+        <h1>Программирование</h1>
+        <h3>как способ жизни!</h3>
+    </div>
+    <div id="main">
+        <div class="intro">
+            <h2>Наши услуги помогут вам!</h2>
+            <span>Большой выбор всего, что может вам пригодиться</span>
+        </div>
+        <div class="text">
+            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius a molestias fugiat dolorum repellat perferendis cumque rem neque corporis. Facilis rem ipsa iusto eos inventore aperiam, iste mollitia tempora, quibusdam quis adipisci fuga aliquid! Quisquam, quas natus! Ipsum fuga consequuntur harum rem eum? Laboriosam, neque. Eveniet aspernatur ex neque quidem!</span>
+        </div>
+    </div>    
+
+    <div id="overview">
+        <h2>Приемущества</h2>
+        <h4>с нами все проще</h4>
+
+        <div class="img">
+            <img src="./im1.jfif" alt="">
+            <span>Изучение языка Ruby для начинающих</span>
+        </div>
+        <div class="img">
+            <img class="img1" src="./im2.jpeg" alt="">
+            <span>Уроки по Figma</span>
+        </div>
+        <div class="img">
+            <img class="img2" src="./im3.jpg" alt="">
+            <span>Изучения языка Javascript</span>
+        </div>
+        <div class="img">
+            <img class="img3" src="./im4.jpg" alt="">
+            <span>Изучения Библиотеки React</span>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <center><h5>Обратноя связь</h5></center>
+        <form  id="form_input">
+            <label for="name">Имя <span>*</span></label><br>
+            <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+            <label for="email">Ваша почта<span>*</span></label><br>
+            <input type="email" placeholder="Введите email" name="email" id="email"><br>
+            <label for="message">Сообщения <span>*</span></label><br>
+            <textarea placeholder="Введите ваше сообщения" name="message" id="message"></textarea><br>
+            <div id="mess_send" class="btn">Отправить</div>
+        </form>
+    </div>
+
+    <div id="faq">
+        <div>
+            <span class="title">Оплата</span><br>
+            <span class="heading">Как будет проходть оплата?</span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aperiam. Dolorem officiis maiores aliquid dolor nihil voluptatum temporibus fugit doloremque, consequatur blanditiis eveniet dolorum repellat cupiditate maxime harum pariatur, illo ipsam accusantium earum. Consequuntur at recusandae dolores eos unde fugiat ea nobis, libero amet accusantium voluptate doloribus minus, optio atque!</p>
+            <span class="heading">Как будет проходть оплата?</span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aperiam. Dolorem officiis maiores aliquid dolor nihil voluptatum temporibus fugit doloremque, consequatur blanditiis eveniet dolorum repellat cupiditate maxime harum pariatur, illo ipsam accusantium earum. Consequuntur at recusandae dolores eos unde fugiat ea nobis, libero amet accusantium voluptate doloribus minus, optio atque!</p>
+            <span class="heading">Как будет проходть оплата?</span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aperiam. Dolorem officiis maiores aliquid dolor nihil voluptatum temporibus fugit doloremque, consequatur blanditiis eveniet dolorum repellat cupiditate maxime harum pariatur, illo ipsam accusantium earum. Consequuntur at recusandae dolores eos unde fugiat ea nobis, libero amet accusantium voluptate doloribus minus, optio atque!</p>
+        </div>
+        <div>
+            <span class="title">Информация</span><br>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolorum rem eos enim atque, sit quae praesentium dignissimos. Nam suscipit quaerat magnam amet deserunt illum doloribus molestias id sint labore, velit assumenda ipsum dolore expedita totam dicta eveniet quo earum.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolorum rem eos enim atque, sit quae praesentium dignissimos. Nam suscipit quaerat magnam amet deserunt illum doloribus molestias id sint labore, velit assumenda ipsum dolore expedita totam dicta eveniet quo earum.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolorum rem eos enim atque, sit quae praesentium dignissimos. Nam suscipit quaerat magnam amet deserunt illum doloribus molestias id sint labore, velit assumenda ipsum dolore expedita totam dicta eveniet quo earum.</p>
+        </div>
+        <div>
+            <span class="title">Гарантии</span><br>
+            <span class="heading">Какие гарантии есть</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint, ipsum aspernatur, delectus molestias temporibus velit, dolore aperiam saepe earum labore perspiciatis odio repudiandae quos aliquam magni perferendis dicta doloremque blanditiis aliquid? Voluptatem sit beatae quisquam nam laudantium ipsa eos officia repudiandae qui ipsam libero provident, similique, in quod consequatur?</p>
+            <span class="heading">Какие гарантии есть</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint, ipsum aspernatur, delectus molestias temporibus velit, dolore aperiam saepe earum labore perspiciatis odio repudiandae quos aliquam magni perferendis dicta doloremque blanditiis aliquid? Voluptatem sit beatae quisquam nam laudantium ipsa eos officia repudiandae qui ipsam libero provident, similique, in quod consequatur?</p>
+            <span class="heading">Какие гарантии есть</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint, ipsum aspernatur, delectus molestias temporibus velit, dolore aperiam saepe earum labore perspiciatis odio repudiandae quos aliquam magni perferendis dicta doloremque blanditiis aliquid? Voluptatem sit beatae quisquam nam laudantium ipsa eos officia repudiandae qui ipsam libero provident, similique, in quod consequatur?</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function slowScroll(id){
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            },500);
+        }
+
+        $(document).on("scroll", function(){
+            if($(window).scrollTop() ===0)
+            $("header").removeClass("fixed");
+            else
+            $("header").attr("class", "fixed");
+        });
+    </script>
+</body>
+</html>
